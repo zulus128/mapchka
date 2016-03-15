@@ -4,7 +4,7 @@
 //
 //  Created by Nikita Anisimov on 1/30/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
-//
+// 
 
 #import <UIKit/UIKit.h>
 #import "cocos2d.h"
