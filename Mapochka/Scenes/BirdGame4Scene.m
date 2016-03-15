@@ -67,7 +67,9 @@ static int gameId = LOG_GAME_BIRD_3;
         
         CCSprite *backSprite=[CCSprite spriteWithFile:@"storyArrLeft.png"];
         CCMenuItemSprite *back=[CCMenuItemSprite itemWithNormalSprite:backSprite selectedSprite:nil block:^(id sender){
-            [[CCDirector sharedDirector] popSceneWithTransition:[CCTransitionFade class] duration:0.5];
+//            [[CCDirector sharedDirector] popSceneWithTransition:[CCTransitionFade class] duration:0.5];
+            [[CCDirector sharedDirector] popScene];
+
         }];
         CCMenu *menu=[CCMenu menuWithItems:back, nil];
         [menu setPosition:ccp(70, s.height-70)];

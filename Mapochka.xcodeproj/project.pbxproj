@@ -5595,8 +5595,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Vera Arkhangelskaya (9UD3257V6W)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vera Arkhangelskaya (9UD3257V6W)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vera Balinova (7WDNWX7DAA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vera Balinova (7WDNWX7DAA)";
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
@@ -5620,8 +5620,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Mapochka;
-				PROVISIONING_PROFILE = "b3a9acbe-b81f-4da3-af38-846515eaf8f2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b3a9acbe-b81f-4da3-af38-846515eaf8f2";
+				PROVISIONING_PROFILE = "12cb8353-c2dc-441d-9e14-4173c4acddf6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "12cb8353-c2dc-441d-9e14-4173c4acddf6";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -5632,8 +5632,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Vera Arkhangelskaya (9UD3257V6W)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vera Arkhangelskaya (9UD3257V6W)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vera Balinova (7WDNWX7DAA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vera Balinova (7WDNWX7DAA)";
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
@@ -5656,8 +5656,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = Mapochka;
-				PROVISIONING_PROFILE = "b3a9acbe-b81f-4da3-af38-846515eaf8f2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b3a9acbe-b81f-4da3-af38-846515eaf8f2";
+				PROVISIONING_PROFILE = "12cb8353-c2dc-441d-9e14-4173c4acddf6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "12cb8353-c2dc-441d-9e14-4173c4acddf6";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;

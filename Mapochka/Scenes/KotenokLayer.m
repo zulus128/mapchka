@@ -45,7 +45,9 @@
         CCSprite *back=[CCSprite spriteWithFile:@"storyArrLeft.png"];
         ScalingMenuItemSprite *backItem=[ScalingMenuItemSprite itemWithNormalSprite:back selectedSprite:nil block:^(id sender){
             [track stop];
-            [[CCDirector sharedDirector] popSceneWithTransition:[CCTransitionFade class] duration:0.5];
+//            [[CCDirector sharedDirector] popSceneWithTransition:[CCTransitionFade class] duration:0.5];
+            [[CCDirector sharedDirector] popScene];
+
         }];
         CCSprite *next=[CCSprite spriteWithFile:@"playButton.png"];
         ScalingMenuItemSprite *nextItem=[ScalingMenuItemSprite itemWithNormalSprite:next selectedSprite:nil block:^(id sender){

@@ -130,7 +130,9 @@ static int gameId = LOG_GAME_CAT_4;
 -(void)ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event{
     CGPoint loc = [self convertTouchToNodeSpace:touch];
     if (CGRectContainsPoint(backBtn.boundingBox, loc))
-        [[CCDirector sharedDirector] popSceneWithTransition:[CCTransitionFade class] duration:0.5];
+//        [[CCDirector sharedDirector] popSceneWithTransition:[CCTransitionFade class] duration:0.5];
+        [[CCDirector sharedDirector] popScene];
+
     else{
         BOOL printFound=NO;
         for (CCSprite *fPrint in footPrints){
