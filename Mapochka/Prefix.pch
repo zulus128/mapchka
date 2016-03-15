@@ -1,0 +1,37 @@
+//
+// Prefix header for all source files of the 'Test' target in the 'Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Helper.h"
+#import "AppDelegate.h"
+#import "Common.h"
+#import "Flurry.h"
+#define documentFullPath(localPath) ([[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES)\
+objectAtIndex:0] stringByAppendingPathComponent:(localPath)])
+
+#define cachesFullPath(localPath) ([[NSSearchPathForDirectoriesInDomains(NSCachesDirectory,NSUserDomainMask,YES)\
+objectAtIndex:0] stringByAppendingPathComponent:(localPath)])
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+
+
+#endif
+//#define DEBUG_FREE_STORIES 1
+
+#ifdef DEBUG
+//    #define USE_SANDBOX 1
+#endif
